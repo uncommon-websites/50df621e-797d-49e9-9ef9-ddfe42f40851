@@ -5,11 +5,14 @@
 			<div class="lg:col-span-2">
 				<a href="/" class="text-xl font-bold tracking-tight flex items-center gap-2 mb-4">
 					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-foreground">
-						<path d="M4 4H20V20H4V4Z" stroke="currentColor" stroke-width="2"/>
-						<path d="M8 4V20" stroke="currentColor" stroke-width="2"/>
-						<path d="M16 4V20" stroke="currentColor" stroke-width="2"/>
-						<path d="M4 12H20" stroke="currentColor" stroke-width="2"/>
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M9.61185 4.17065C8.2158 4.17065 6.92581 4.91543 6.22779 6.12444L3.72109 10.4662C3.02307 11.6752 3.02307 13.1647 3.72109 14.3737L6.22779 18.7155C6.92581 19.9245 8.2158 20.6693 9.61185 20.6693H14.6252C16.0213 20.6693 17.3113 19.9245 18.0093 18.7155L20.516 14.3737C21.214 13.1647 21.214 11.6752 20.516 10.4662L18.0093 6.12444C17.3113 4.91543 16.0213 4.17065 14.6252 4.17065H9.61185ZM14.6252 6.77569H11.4919C10.9905 6.77569 10.6773 7.31837 10.9283 7.75232C11.7029 9.09123 12.4793 10.4291 13.2527 11.7687C13.4854 12.1717 13.4854 12.6682 13.2527 13.0712C12.4793 14.4108 11.7029 15.7487 10.9283 17.0876C10.6773 17.5215 10.9905 18.0642 11.4919 18.0642H14.6252C15.0906 18.0642 15.5206 17.8159 15.7533 17.4129L18.26 13.0712C18.4927 12.6682 18.4927 12.1717 18.26 11.7687L15.7533 7.42695C15.5206 7.02395 15.0906 6.77569 14.6252 6.77569Z"
+							fill="currentColor"
+						/>
 					</svg>
+					<span class="font-sans font-semibold">ShellKey</span>
 				</a>
 			</div>
 
@@ -17,20 +20,17 @@
 			<div>
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Contact</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="mailto:hello@parallel.ai" class="hover:text-foreground">hello@parallel.ai</a></li>
+					<li><a href="mailto:hello@shellkey.app" class="hover:text-foreground">hello@shellkey.app</a></li>
 				</ul>
 			</div>
 
-			<!-- Products -->
+			<!-- Product -->
 			<div>
-				<h4 class="font-mono text-xs uppercase text-muted mb-4">Products</h4>
+				<h4 class="font-mono text-xs uppercase text-muted mb-4">Product</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="#" class="hover:text-foreground">Search API</a></li>
-					<li><a href="#" class="hover:text-foreground">Extract API</a></li>
-					<li><a href="#" class="hover:text-foreground">Task API</a></li>
-					<li><a href="#" class="hover:text-foreground">FindAll API</a></li>
-					<li><a href="#" class="hover:text-foreground">Chat API</a></li>
-					<li><a href="#" class="hover:text-foreground">Monitor API</a></li>
+					<li><a href="#features" class="hover:text-foreground">Features</a></li>
+					<li><a href="#download" class="hover:text-foreground">Download</a></li>
+					<li><a href="#waitlist" class="hover:text-foreground">TestFlight</a></li>
 				</ul>
 			</div>
 
@@ -38,34 +38,19 @@
 			<div>
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Resources</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="#" class="hover:text-foreground">About</a></li>
-					<li><a href="#" class="hover:text-foreground">Pricing</a></li>
-					<li><a href="#" class="hover:text-foreground">Docs</a></li>
-					<li><a href="#" class="hover:text-foreground">Blog</a></li>
-					<li><a href="#" class="hover:text-foreground">Changelog</a></li>
-					<li><a href="#" class="hover:text-foreground">Careers</a></li>
+					<li><a href="#" class="hover:text-foreground">Documentation</a></li>
+					<li><a href="#" class="hover:text-foreground">Support</a></li>
+					<li><a href="#" class="hover:text-foreground">Roadmap</a></li>
 				</ul>
 			</div>
 
 			<!-- Info -->
 			<div>
-				<h4 class="font-mono text-xs uppercase text-muted mb-4">Info</h4>
-				<ul class="space-y-2 text-xs font-mono text-muted mb-8">
+				<h4 class="font-mono text-xs uppercase text-muted mb-4">Legal</h4>
+				<ul class="space-y-2 text-xs font-mono text-muted">
+					<li><a href="#" class="hover:text-foreground">Privacy Policy</a></li>
 					<li><a href="#" class="hover:text-foreground">Terms of Service</a></li>
-					<li><a href="#" class="hover:text-foreground">Customer Terms</a></li>
-					<li><a href="#" class="hover:text-foreground">Privacy</a></li>
-					<li><a href="#" class="hover:text-foreground">Acceptable Use</a></li>
-					<li><a href="#" class="hover:text-foreground">Trust Center</a></li>
 				</ul>
-				
-				<!-- SOC 2 Badge -->
-				<div class="w-16 h-16 border-2 border-black rounded-full flex items-center justify-center relative">
-					<div class="absolute inset-0 rounded-full border border-white m-0.5"></div>
-					<div class="text-[8px] font-bold text-center leading-tight">
-						SOC 2<br>TYPE II
-					</div>
-					<div class="absolute -bottom-1 -right-1 w-4 h-4 bg-black rounded-full flex items-center justify-center text-white text-[8px]">✓</div>
-				</div>
 			</div>
 		</div>
 
@@ -88,29 +73,29 @@
 				</div>
 			</div>
 			<div>
-				Parallel Web Systems Inc. 2025
+				ShellKey 2025
 			</div>
 		</div>
 	</div>
 
 	<!-- Bottom Texture Strip -->
-	<div class="mt-8 h-32 w-full bg-[#111] relative overflow-hidden flex items-end justify-center pb-4">
-		<!-- Noise Texture -->
-		<div class="absolute inset-0 opacity-20" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPgo8cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPg=='); background-size: 2px 2px;"></div>
-		
-		<!-- Glitch/Code Overlay -->
-		<div class="absolute inset-0 opacity-10 font-mono text-[8px] text-white overflow-hidden leading-none whitespace-pre-wrap break-all p-2 select-none pointer-events-none">
-			{Array(2000).fill(0).map(() => Math.random() > 0.5 ? '1' : '0').join('')}
+	<div class="mt-8 h-32 w-full bg-black relative overflow-hidden flex items-end justify-center pb-4">
+		<!-- Terminal Lines Background -->
+		<div class="absolute inset-0 opacity-10 font-mono text-[8px] text-green-400 overflow-hidden leading-relaxed p-4 select-none pointer-events-none">
+			<div>$ ssh user@dev-server</div>
+			<div>Connected to dev-server</div>
+			<div>$ tmux attach -t opencode</div>
+			<div class="text-primary-400">→ AI agent running...</div>
 		</div>
 
 		<div class="relative z-10 flex items-center gap-4 text-[10px] font-mono text-white/50">
-			<div class="flex items-center gap-2 text-white">
-				<span class="w-2 h-2 bg-white rounded-full"></span>
-				HUMAN
+			<div class="flex items-center gap-2 text-primary-400">
+				<span class="w-2 h-2 bg-primary-400 rounded-full"></span>
+				iOS
 			</div>
 			<div class="flex items-center gap-2">
 				<span class="w-2 h-2 border border-white/50 rounded-full"></span>
-				MACHINE
+				COMING SOON
 			</div>
 		</div>
 	</div>
